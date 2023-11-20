@@ -1,4 +1,5 @@
 
+import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import HomePage from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
@@ -11,5 +12,6 @@ router.navigate('/')
 router.on('/', () => render(app,HomePage))
 router.on('/contact', () => render(app,Contact))
 router.on('/products', () => render(app,Products))
+router.on('/blog', () => render(app,Blog))
 router.notFound( () => render(app,NotFound))
 router.resolve()

@@ -1,8 +1,11 @@
-
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
 const NotFound = () => {
   return  `
-  <div>Not found</div>
+  ${Header()}
+
+  ${Footer()}
   `
 }
 

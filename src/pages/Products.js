@@ -1,7 +1,11 @@
-
+import Header from "../components/Header"
+import Footer2 from "../components/Footer2"
+import AllProducts from "../components/product/AllProducts"
 const Products = () => {
   return `
-  <div>Products</div>
+  ${Header()}
+  ${AllProducts()}
+  ${Footer2()}
   `
 }
 
